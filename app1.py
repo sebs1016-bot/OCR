@@ -1,7 +1,16 @@
 import streamlit as st
 import cv2
 import numpy as np
-import pytesseract
+import pytesseractst.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #2f3542, #ced6e0);
+    color: #0a0a0a;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+</style>
+""", unsafe_allow_html=True)
+
 from PIL import Image
 
 
