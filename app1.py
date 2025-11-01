@@ -1,7 +1,8 @@
 import streamlit as st
 import cv2
 import numpy as np
-import pytesseractst.markdown("""
+import pytesseract
+st.markdown("""
 <style>
 .stApp {
     background: linear-gradient(135deg, #2f3542, #ced6e0);
